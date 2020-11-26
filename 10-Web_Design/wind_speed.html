@@ -10,15 +10,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-
   <!--CSS Link-->
   <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
-  <!-- Navigation Section -->
-  <div class="navigation">
+   <!-- Navigation Section -->
+   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand"  href="index.html"><h1>Latitude</h1></a>
       <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -50,24 +48,17 @@
       </div>
     </nav>
   </div>
-
-
+  
   <!-- Content Section -->
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-12">
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Wind Speed</h3>
           <hr>
-          <img src="img/max_temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>This project was to analyze how weather changes based on different environmental factors like latitude, wind speed, cloudiness, and humidity. </p>
-
-          <p>For this analysis, a data set on over 500 cities was used, which was obtained from OpenWeatherMap API. And, the data was plotted into four different graphs, using Matplotlib. </p>
-          
-          <p>This website provides the visualizations of the data, analysis on each graph, and the data set that was used for the analysis.</p>
-
-
+          <img src="img/wind_speed.png" alt="Wind Speed Graph">
+          <p>Latitude and wind speed do not seem to have a strong correlation. However, the graph still shows that wind speed slightly increases as latitude degree increases. Bigger data set might help to solidify the analysis. </p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
@@ -75,8 +66,7 @@
         <div class="box">
           <h5 class="title">Visualizations</h5>
           <hr>
-
-
+ 
           <div class="container">
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
@@ -108,11 +98,10 @@
               </div>
 
 
+
             </div>
           </div>
-
-
-        </div>
+       </div>
       </div>
     </div>
   </div>
@@ -128,7 +117,6 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>

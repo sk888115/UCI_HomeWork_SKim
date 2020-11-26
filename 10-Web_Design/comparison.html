@@ -17,8 +17,8 @@
 </head>
 
 <body>
-  <!-- Navigation Section -->
-  <div class="navigation">
+   <!-- Navigation Section -->
+   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand"  href="index.html"><h1>Latitude</h1></a>
       <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -50,72 +50,53 @@
       </div>
     </nav>
   </div>
-
-
+  
   <!-- Content Section -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-12">
+      <div>
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Comparison: Latitude vs X</h3>
           <hr>
-          <img src="img/max_temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>This project was to analyze how weather changes based on different environmental factors like latitude, wind speed, cloudiness, and humidity. </p>
-
-          <p>For this analysis, a data set on over 500 cities was used, which was obtained from OpenWeatherMap API. And, the data was plotted into four different graphs, using Matplotlib. </p>
-          
-          <p>This website provides the visualizations of the data, analysis on each graph, and the data set that was used for the analysis.</p>
-
-
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
-        <div class="box">
-          <h5 class="title">Visualizations</h5>
-          <hr>
-
-
-          <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+          <p>Click any plot to get an in-depth analysis.</p>
+          <div class="container" style="padding-bottom: 40px;">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title" style="text-align: center;">vs. Max Temperature</div>
                 <a href="max_temp.html">
                   <img class="panel" src="img/max_temp.png" alt="Max Temperature Image">
-                  <h6 style="text-align: center;">Max Temperature</h6>
                 </a>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title"style="text-align: center;">vs. Humidity</div>
                 <a href="humidity.html">
                   <img class="panel" src="img/humidity.png" alt="Humidity Graph">
-                  <h6 style="text-align: center;">Humidity</h6>
                 </a>
               </div>
             </div>
 
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title" style="text-align: center;">vs. Cloudiness</div>
                 <a href="cloudiness.html">
                   <img class="panel" src="img/cloudiness.png" alt="Cloudiness Graph">
-                  <h6 style="text-align: center;">Cloudiness</h6>
                 </a>
+
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title" style="text-align: center;">vs. Wind Speed</div>
                 <a href="wind_speed.html">
                   <img class="panel" src="img/wind_speed.png" alt="Wind Speed Graph">
-                  <h6 style="text-align: center;">Wind Speed</h6>
                 </a>
               </div>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
   </div>
+
   <!-- Footer Section -->
   <footer>
     <div class="footer">&copy; Sukhyun Rachel Kim 2020</div>
