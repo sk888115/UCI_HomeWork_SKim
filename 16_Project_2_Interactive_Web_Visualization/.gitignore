@@ -1,0 +1,15 @@
+# CSV file
+#
+# Resources/
+# *.csv
+#
+# Config file
+#
+*config.py
+#
+# Database Config file
+#
+*databaseconfig.py
+# Config js file
+# 
+*config.js
