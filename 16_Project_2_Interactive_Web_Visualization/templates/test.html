@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>사이트 이름</title>
+        
+        <!-- AOS 라이브러리 불러오기-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.js" /> 
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+    </head>
+
+    <body>
+        <!-- 스크립트로 초기화 -->
+        <script> 
+            AOS.init(); 
+        </script>
+        
+        <div data-aos="zoom-out-up" data-aos-duration="1000000000">
+            
+            
+            <h1>hello world</h1>
+            <h1>hello world</h1>
+            <h1>hello world</h1>
+            <img src="images/biteable-kitchen.jpg" alt="" /></a>
+            <h1>hello world</h1>
+            <h1>hello world</h1>
+            <h1>hello world</h1>
+            <h1>hello world</h1>
+            
+            
+        </div>
+
+        <div data-aos="zoom-out-up" data-aos-duration="10000000000000">
+        <img src="images/biteable-kitchen.jpg" width="600px" alt="" /></a></div>
+
+
+        <div id="cal-heatmap"></div>
+        <script type="text/javascript">
+	        var cal = new CalHeatMap();
+	        cal.init({
+		    data: "datas.json"
+	        });
+        </script>
+        
+        
+        
+    </body>
+</html>
